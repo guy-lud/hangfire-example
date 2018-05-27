@@ -30,13 +30,14 @@
 
 
   <ItemGroup>
-    <ProjectReference Include="ClassLibrary1\ClassLibrary1.csproj" />
+    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj" />
+    <ProjectReference Include="..\Hangfire.Postgres.RabbitMq\Hangfire.Postgres.RabbitMq.csproj" />
   </ItemGroup>
 
 
   <ItemGroup>
-    <Reference Include="Hangfire.Postgres.RabbitMq">
-      <HintPath>..\..\..\..\Dev\open-source\Hangfire.SqlServer.RabbitMq\Hangfire.Postgres.RabbitMq\bin\Debug\netstandard1.6\Hangfire.Postgres.RabbitMq.dll</HintPath>
+    <Reference Include="Hangfire.MemoryStorage.Core">
+      <HintPath>..\..\..\..\.nuget\packages\hangfire.memorystorage.core\1.4.0\lib\netstandard1.3\Hangfire.MemoryStorage.Core.dll</HintPath>
     </Reference>
   </ItemGroup>
 

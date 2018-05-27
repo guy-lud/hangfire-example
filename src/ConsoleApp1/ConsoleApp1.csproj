@@ -16,12 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="Hangfire.Postgres.RabbitMq">
-      <HintPath>..\..\..\..\..\Dev\open-source\Hangfire.SqlServer.RabbitMq\Hangfire.Postgres.RabbitMq\bin\Debug\netcoreapp2.0\Hangfire.Postgres.RabbitMq.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\Hangfire.Postgres.RabbitMq\Hangfire.Postgres.RabbitMq.csproj" />
   </ItemGroup>
 
 </Project>

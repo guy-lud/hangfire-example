@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{CB4FC643-02A4-498D-AB40-E6D088EAE245}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hangfire_example", "webApp\hangfire_example.csproj", "{EB9103BB-390D-4A43-A36D-F27B13D4DD70}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hangfire.Postgres.RabbitMq", "Hangfire.Postgres.RabbitMq\Hangfire.Postgres.RabbitMq.csproj", "{E70DD6A4-B955-4E26-BCC6-E591CB5F476E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{88DAF342-74BF-4539-97C8-D50B942EA96E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{06A601CD-F39C-468E-9DE9-BA00015119D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB9103BB-390D-4A43-A36D-F27B13D4DD70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB9103BB-390D-4A43-A36D-F27B13D4DD70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB9103BB-390D-4A43-A36D-F27B13D4DD70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB9103BB-390D-4A43-A36D-F27B13D4DD70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E70DD6A4-B955-4E26-BCC6-E591CB5F476E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E70DD6A4-B955-4E26-BCC6-E591CB5F476E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E70DD6A4-B955-4E26-BCC6-E591CB5F476E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E70DD6A4-B955-4E26-BCC6-E591CB5F476E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88DAF342-74BF-4539-97C8-D50B942EA96E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88DAF342-74BF-4539-97C8-D50B942EA96E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88DAF342-74BF-4539-97C8-D50B942EA96E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88DAF342-74BF-4539-97C8-D50B942EA96E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06A601CD-F39C-468E-9DE9-BA00015119D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06A601CD-F39C-468E-9DE9-BA00015119D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06A601CD-F39C-468E-9DE9-BA00015119D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06A601CD-F39C-468E-9DE9-BA00015119D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFE6C178-876D-48CB-8617-7CCB57AD029D}
+	EndGlobalSection
+EndGlobal
