@@ -1,10 +1,8 @@
 ﻿using System;
 using ClassLibrary1;
 using Hangfire;
-using Hangfire.MemoryStorage;
 using Hangfire.Postgres.RabbitMq;
 using Hangfire.PostgreSql;
-using Hangfire.Server;
 using Hangfire.SimpleInjector;
 using SimpleInjector;
 
