@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hangfire.Core" Version="1.6.19" />
+    <PackageReference Include="Hangfire.MemoryStorage.Core" Version="1.4.0" />
+    <PackageReference Include="Hangfire.PostgreSql" Version="1.4.8.2" />
+    <PackageReference Include="HangFire.SimpleInjector.Core" Version="0.0.1" />
+    <PackageReference Include="Npgsql" Version="3.2.7" />
+    <PackageReference Include="RabbitMQ.Client" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Hangfire.Postgres.RabbitMq">
+      <HintPath>..\..\..\..\..\Dev\open-source\Hangfire.SqlServer.RabbitMq\Hangfire.Postgres.RabbitMq\bin\Debug\netcoreapp2.0\Hangfire.Postgres.RabbitMq.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
